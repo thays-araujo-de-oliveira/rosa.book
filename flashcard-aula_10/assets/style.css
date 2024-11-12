@@ -1,7 +1,7 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-front-color: #d62c15;
+    --card-back-color: #dcf400;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-}
+}   
 
 .cartao__conteudo h3 {
     color: var(--text-color);
@@ -55,12 +55,11 @@ body {
 .cartao__conteudo__pergunta p {
     color: var(--text-color);
     font-weight: 500;
-}
-
+    }
 .cartao__conteudo__resposta p {
     color: var(--card-back-color);
     font-weight: 700;
-}
+}background-color: #d62c15;
 
 .cartao.active .cartao__conteudo {
     transform: rotateY(180deg);

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Unity Hub
+Comment=The Official Unity Hub
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=start-unityhub --file-forwarding com.unity.UnityHub @@u %U @@
+Terminal=false
+Type=Application
+Icon=com.unity.UnityHub
+MimeType=x-scheme-handler/unityhub;
+Categories=Development;
+StartupWMClass=unityhub
+PrefersNonDefaultGPU=true
+X-Flatpak-Tags=proprietary;
+X-Flatpak=com.unity.UnityHub
